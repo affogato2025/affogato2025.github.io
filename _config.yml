@@ -103,4 +103,4 @@ theme: butterfly
 deploy:
   type: git
   repo: https://github.com/affogato2025/affogato2025.github.io.git
-  branch: main
+  branch: gh-pages

@@ -1,37 +1,34 @@
 @echo off
-echo 正在部署 Hexo 博客到 GitHub Pages...
-echo.
+setlocal
 
-echo 正在安装依赖...
-npm install
+echo Installing dependencies...
+call npm install
+if errorlevel 1 goto :error
 
-echo.
-echo 正在安装 Butterfly 主题...
-npm install hexo-theme-butterfly
-xcopy /E /I "node_modules\hexo-theme-butterfly" "themes\butterfly"
+call deploy.bat
+if errorlevel 1 goto :error
 
 echo.
-echo 正在生成静态文件...
-npx hexo clean
-npx hexo generate
-
-echo.
-echo 检查 Git 状态...
-git status
-
-echo.
-echo 添加所有文件到 Git...
+echo Staging changes...
 git add .
 
 echo.
-echo 提交更改...
-git commit -m "Initial commit: Hexo blog with Butterfly theme"
+echo Committing static site update...
+git commit -m "chore: regenerate site"
+if errorlevel 1 (
+  echo No changes to commit.
+)
 
 echo.
-echo 正在推送代码到 GitHub...
-git push -u origin main
+echo Pushing to origin/main...
+git push origin main
+if errorlevel 1 goto :error
 
 echo.
-echo 部署完成！
-echo 请访问 https://affogato2025.github.io 查看您的博客
-pause
+echo Publish completed.
+goto :eof
+
+:error
+echo.
+echo Publish failed.
+exit /b 1

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>欢迎来到我的博客</title>
+      <link href="/2026/01/13/hello-world/"/>
+      <url>/2026/01/13/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>欢迎来到我的个人技术博客！这里是 affogato.xin，记录我在技术领域的学习和思考。</p><h2 id="关于本站"><a href="#关于本站" class="headerlink" title="关于本站"></a>关于本站</h2><p>这个博客使用 Hexo 框架和 Butterfly 主题构建，托管在 GitHub Pages 上。我会在这里分享编程经验、技术教程和生活感悟。</p><h2 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h2><p>如果你对我的博客有任何建议或者想与我交流技术问题，欢迎通过以下方式联系我：</p><ul><li>邮箱：<a href="mailto:&#121;&#x6f;&#x75;&#114;&#x2d;&#x65;&#x6d;&#97;&#x69;&#x6c;&#x40;&#101;&#x78;&#x61;&#x6d;&#112;&#x6c;&#x65;&#46;&#x63;&#x6f;&#109;">&#121;&#x6f;&#x75;&#114;&#x2d;&#x65;&#x6d;&#97;&#x69;&#x6c;&#x40;&#101;&#x78;&#x61;&#x6d;&#112;&#x6c;&#x65;&#46;&#x63;&#x6f;&#109;</a></li><li>GitHub：<a href="https://github.com/your-username">你的GitHub用户名</a></li></ul><p>感谢您的访问！</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友情链接</title>
+      <link href="/2026/01/13/friends/"/>
+      <url>/2026/01/13/friends/</url>
+      
+        <content type="html"><![CDATA[<h2 id="友情链接"><a href="#友情链接" class="headerlink" title="友情链接"></a>友情链接</h2><p>这里是我的朋友们的博客链接：</p><!--友链格式示例：- name: 示例名称  link: https://example.com  avatar: https://example.com/avatar.png  descr: 这是一个示例-->]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于我</title>
+      <link href="/2026/01/13/about/"/>
+      <url>/2026/01/13/about/</url>
+      
+        <content type="html"><![CDATA[<p>欢迎来到我的个人博客！</p><p>这里是 affogato.xin，记录我的技术成长之路和技术分享。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>

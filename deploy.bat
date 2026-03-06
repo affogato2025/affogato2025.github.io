@@ -1,16 +1,24 @@
 @echo off
-echo 正在部署 Hexo 博客到 GitHub Pages...
-echo.
+setlocal
 
-REM 清理缓存
+echo Building Hexo site...
 call npx hexo clean
+if errorlevel 1 goto :error
 
-REM 生成静态文件
 call npx hexo generate
+if errorlevel 1 goto :error
 
-REM 推送至 GitHub
-call npx hexo deploy
+echo Syncing public files to repository root...
+xcopy /E /I /Y "public\*" ".\" >nul
+if errorlevel 1 goto :error
+
+if not exist ".nojekyll" type nul > ".nojekyll"
 
 echo.
-echo 部署完成！
-pause
+echo Build completed. Run "git status" to review generated files.
+goto :eof
+
+:error
+echo.
+echo Build failed.
+exit /b 1
