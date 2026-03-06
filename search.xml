@@ -4,12 +4,18 @@
   
     
     <entry>
-      <title>欢迎来到我的博客</title>
+      <title>博客正式上线：欢迎来到 affogato.xin</title>
       <link href="/2026/01/13/hello-world/"/>
       <url>/2026/01/13/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>欢迎来到我的个人技术博客！这里是 affogato.xin，记录我在技术领域的学习和思考。</p><h2 id="关于本站"><a href="#关于本站" class="headerlink" title="关于本站"></a>关于本站</h2><p>这个博客使用 Hexo 框架和 Butterfly 主题构建，托管在 GitHub Pages 上。我会在这里分享编程经验、技术教程和生活感悟。</p><h2 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h2><p>如果你对我的博客有任何建议或者想与我交流技术问题，欢迎通过以下方式联系我：</p><ul><li>邮箱：<a href="mailto:&#121;&#x6f;&#x75;&#114;&#x2d;&#x65;&#x6d;&#97;&#x69;&#x6c;&#x40;&#101;&#x78;&#x61;&#x6d;&#112;&#x6c;&#x65;&#46;&#x63;&#x6f;&#109;">&#121;&#x6f;&#x75;&#114;&#x2d;&#x65;&#x6d;&#97;&#x69;&#x6c;&#x40;&#101;&#x78;&#x61;&#x6d;&#112;&#x6c;&#x65;&#46;&#x63;&#x6f;&#109;</a></li><li>GitHub：<a href="https://github.com/your-username">你的GitHub用户名</a></li></ul><p>感谢您的访问！</p>]]></content>
+        <content type="html"><![CDATA[<p>欢迎来到我的个人博客，这里会持续记录编程实践、工具笔记和生活观察。</p><h2 id="博客定位"><a href="#博客定位" class="headerlink" title="博客定位"></a>博客定位</h2><p>这个站点基于 Hexo + Butterfly 构建，主打三类内容：</p><ol><li>建站与开发经验：记录实际踩坑、配置与优化过程。  </li><li>工具与效率实践：总结高频使用的软件、脚本与工作流。  </li><li>学习与成长日志：把阶段性复盘整理成可复用的方法。</li></ol><h2 id="近期更新计划"><a href="#近期更新计划" class="headerlink" title="近期更新计划"></a>近期更新计划</h2><ul><li>完善文章目录与标签体系，提升检索效率。  </li><li>增加可复制的模板类文章（部署、排错、自动化）。  </li><li>按月发布站点更新日志和学习复盘。</li></ul><h2 id="互动方式"><a href="#互动方式" class="headerlink" title="互动方式"></a>互动方式</h2><ul><li>留言交流：<a href="/comments/">留言板</a>  </li><li>GitHub 主页：<a href="https://github.com/affogato2025">affogato2025</a>  </li><li>友链申请：<a href="/friends/">友情链接</a></li></ul><p>感谢访问，欢迎常来。</p>]]></content>
       
+      
+      <categories>
+          
+          <category> 建站日志 </category>
+          
+      </categories>
       
       
         <tags>
@@ -18,6 +24,8 @@
             
             <tag> Hexo </tag>
             
+            <tag> Butterfly </tag>
+            
         </tags>
       
     </entry>
@@ -25,26 +33,58 @@
     
     
     <entry>
-      <title>友情链接</title>
+      <title>友情链接计划与收录标准</title>
       <link href="/2026/01/13/friends/"/>
       <url>/2026/01/13/friends/</url>
       
-        <content type="html"><![CDATA[<h2 id="友情链接"><a href="#友情链接" class="headerlink" title="友情链接"></a>友情链接</h2><p>这里是我的朋友们的博客链接：</p><!--友链格式示例：- name: 示例名称  link: https://example.com  avatar: https://example.com/avatar.png  descr: 这是一个示例-->]]></content>
+        <content type="html"><![CDATA[<p>为了让友链页更有质量，这里公开收录标准与维护方式。</p><h2 id="收录标准"><a href="#收录标准" class="headerlink" title="收录标准"></a>收录标准</h2><ul><li>站点可正常访问，内容长期维护。  </li><li>无明显违规、恶意跳转或大量广告。  </li><li>建议为技术、设计、学习或创作相关内容。</li></ul><h2 id="申请格式"><a href="#申请格式" class="headerlink" title="申请格式"></a>申请格式</h2><p>请在 <a href="/comments/">留言板</a> 按下面格式留言：</p><ul><li>站点名称：  </li><li>站点地址：  </li><li>站点简介：  </li><li>头像链接（可选）：</li></ul><h2 id="维护规则"><a href="#维护规则" class="headerlink" title="维护规则"></a>维护规则</h2><ul><li>每月进行一次可访问性检查。  </li><li>长期失效链接会先标记，后下线。  </li><li>支持互链和内容共建。</li></ul><p>完整友链列表请查看 <a href="/friends/">友情链接页面</a>。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 站点运营 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 友链 </tag>
+            
+            <tag> 社区 </tag>
+            
+            <tag> 规范 </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>关于我</title>
+      <title>我的建站路线与写作方向</title>
       <link href="/2026/01/13/about/"/>
       <url>/2026/01/13/about/</url>
       
-        <content type="html"><![CDATA[<p>欢迎来到我的个人博客！</p><p>这里是 affogato.xin，记录我的技术成长之路和技术分享。</p>]]></content>
+        <content type="html"><![CDATA[<p>这篇文章用于说明我为什么做这个博客，以及后续怎么把它长期维护下去。</p><h2 id="为什么要做个人博客"><a href="#为什么要做个人博客" class="headerlink" title="为什么要做个人博客"></a>为什么要做个人博客</h2><ul><li>让零散知识沉淀为可检索内容。  </li><li>把问题和方案公开，接受外部反馈。  </li><li>长期积累“可复用”的技术资产。</li></ul><h2 id="面向的读者"><a href="#面向的读者" class="headerlink" title="面向的读者"></a>面向的读者</h2><ul><li>正在学习前后端基础的开发者。  </li><li>想搭建和维护个人网站的同学。  </li><li>关注效率工具与知识管理方法的人。</li></ul><h2 id="内容组织方式"><a href="#内容组织方式" class="headerlink" title="内容组织方式"></a>内容组织方式</h2><ul><li><code>建站日志</code>：记录网站结构和功能演进。  </li><li><code>站点运营</code>：记录内容策略、导航优化和页面体验。  </li><li><code>工具实践</code>：聚焦可落地脚本和自动化流程。</li></ul><p>你也可以在 <a href="/about/">关于页</a> 查看站点长期规划。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 建站日志 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 规划 </tag>
+            
+            <tag> 写作 </tag>
+            
+            <tag> 复盘 </tag>
+            
+        </tags>
       
     </entry>
     

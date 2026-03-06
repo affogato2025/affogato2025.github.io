@@ -1,4 +1,4 @@
-# --------------------------------------
+﻿# --------------------------------------
 # Hexo Butterfly Theme Configuration
 # If you have any questions, please refer to the documentation
 # Chinese: https://butterfly.js.org/
@@ -18,13 +18,20 @@ nav:
   fixed: false
 
 menu:
-  首頁: / || fas fa-home
-  頁面: /archives/ || fas fa-archive
-  文檔: /categories/ || fas fa-folder
-  搜尋: /search/ || fas fa-search
-  留言板: /comments/ || fas fa-comments
-  語言: /languages/ || fas fa-language
-
+  Home: / || fas fa-home
+  Explore||fas fa-compass:
+    Archives: /archives/ || fas fa-archive
+    Categories: /categories/ || fas fa-folder-open
+    Tags: /tags/ || fas fa-tags
+    Search: /search/ || fas fa-search
+  Community||fas fa-comments:
+    Guestbook: /comments/ || fas fa-message
+    Friends: /friends/ || fas fa-link
+    English: /en/ || fas fa-language
+  About||fas fa-user:
+    About Me: /about/ || fas fa-address-card
+    Tech Stack: /stack/ || fas fa-code
+    Timeline: /timeline/ || fas fa-timeline
 # --------------------------------------
 # Code Blocks Settings
 # --------------------------------------
@@ -48,9 +55,9 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
-
+  fab fa-github: https://github.com/affogato2025 || GitHub || '#24292e'
+  fas fa-globe: https://affogato.xin || Website || '#1f6feb'
+  fas fa-comments: /comments/ || Contact || '#4a7dbe'
 # --------------------------------------
 # Image Settings
 # --------------------------------------
@@ -286,15 +293,15 @@ aside:
     category: true
   card_author:
     enable: true
-    description:
+    description: Build notes, coding practice, and growth logs
     button:
       enable: true
       icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/xxxxxx
+      text: Visit GitHub
+      link: https://github.com/affogato2025
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: Welcome to affogato.xin. All menu links now have complete pages.
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -330,7 +337,7 @@ aside:
     enable: true
     # Type: monthly / yearly
     type: monthly
-    # Eg: YYYY年MM月
+    # Eg: YYYY骞碝M鏈?
     format: MMMM YYYY
     # Sort of order. 1, asc for ascending; -1, desc for descending
     order: -1
@@ -366,16 +373,15 @@ rightside_bottom:
 translate:
   enable: false
   # The text of a button
-  default: 繁
-  # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
+  default: Traditional
+  # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese)
   defaultEncoding: 2
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '繁'
+  msgToTraditionalChinese: 'Traditional'
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '簡'
-
+  msgToSimplifiedChinese: 'Simplified'
 # Read Mode
 readmode: true
 
@@ -476,7 +482,7 @@ search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
   use: local_search
-  placeholder: 搜尋...
+  placeholder: 鎼滃皨...
 
   # Algolia Search
   algolia_search:
@@ -534,7 +540,7 @@ comments:
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  use: Valine
+  use: Utterances
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -548,7 +554,7 @@ comments:
 # Disqus
 # https://disqus.com/
 disqus:
-  shortname: your-disqus-shortname
+  shortname:
   # For newest comments widget
   apikey:
 
@@ -577,8 +583,8 @@ gitalk:
 # Valine
 # https://valine.js.org
 valine:
-  appId: your-app-id
-  appKey: your-app-key
+  appId:
+  appKey:
   avatar: monsterid
   # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   serverURLs:
@@ -599,7 +605,7 @@ waline:
 # Utterances
 # https://utteranc.es/
 utterances:
-  repo:
+  repo: affogato2025/affogato2025.github.io
   # Issue Mapping: pathname/url/title/og:title
   issue_term: pathname
   # Theme: github-light/github-dark/github-dark-orange/icy-dark/dark-blue/photon-dark
@@ -689,8 +695,7 @@ crisp:
 baidu_analytics:
 
 # https://analytics.google.com/analytics/web/
-google_analytics: G-XXXXXXXXXX
-
+google_analytics:
 # https://www.cloudflare.com/zh-tw/web-analytics/
 cloudflare_analytics:
 
@@ -957,14 +962,14 @@ pjax:
   exclude:
     # - /xxxxxx/
 
-# Live2D看板娘配置
+# Live2D鐪嬫澘濞橀厤缃?
 live2d:
   enable: true
   script: 
-    # 使用jsdelivr加速CDN
+    # 浣跨敤jsdelivr鍔犻€烠DN
     - https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js
   model:
-    # 使用不同的人物模型，这里选择cyberpunk风格的模型
+    # 浣跨敤涓嶅悓鐨勪汉鐗╂ā鍨嬶紝杩欓噷閫夋嫨cyberpunk椋庢牸鐨勬ā鍨?
     path: https://cdn.jsdelivr.net/npm/live2d-widget-model@1.0.1/assets/koharu/L2Dwidget.min.js
   display:
     superSample: 2
@@ -1125,3 +1130,5 @@ CDN:
     # valine:
     # waline_css:
     # waline_js:
+
+

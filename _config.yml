@@ -4,16 +4,16 @@
 
 # Site
 title: affogato.xin
-subtitle: ''
-description: ''
-keywords:
-author: Your Name
+subtitle: '记录编程与生活'
+description: 'affogato2025 的个人博客，分享编程实践、工具笔记与生活观察。'
+keywords: ['博客', '编程', 'Hexo', 'Butterfly']
+author: affogato2025
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://affogato2025.github.io
+url: https://affogato.xin
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
