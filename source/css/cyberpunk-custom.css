@@ -1,0 +1,92 @@
+:root {
+  --theme-color: #00f6ff;
+  --theme-color-op: #00f6ff23;
+  --theme-color-op-deep: #00f6ff55;
+  --hover-text-color: #ff4fd8;
+  --global-bg: #05070d;
+  --font-color: #d9f7ff;
+  --card-bg: #0b1020cc;
+  --card-box-shadow: 0 0 0 1px #00f6ff33, 0 0 24px #00f6ff22;
+  --nav-bg: #090d1acc;
+}
+
+[data-theme='dark'] {
+  --theme-color: #00f6ff;
+  --theme-color-op: #00f6ff23;
+  --theme-color-op-deep: #00f6ff55;
+  --hover-text-color: #ff4fd8;
+  --global-bg: #05070d;
+  --font-color: #d9f7ff;
+  --card-bg: #0b1020cc;
+}
+
+#web_bg {
+  background-image:
+    linear-gradient(120deg, rgba(0, 246, 255, 0.12), rgba(255, 79, 216, 0.08)),
+    radial-gradient(circle at 20% 20%, rgba(57, 255, 20, 0.12), transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(0, 246, 255, 0.16), transparent 35%),
+    url('/img/cyberpunk-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#nav {
+  backdrop-filter: blur(8px) saturate(130%);
+  border-bottom: 1px solid #00f6ff44;
+}
+
+#menus .menus_items .menus_item .site-page,
+#sidebar #sidebar-menus .menus_items .site-page {
+  transition: color 0.25s ease, text-shadow 0.25s ease;
+}
+
+#menus .menus_items .menus_item .site-page:hover,
+#sidebar #sidebar-menus .menus_items .site-page:hover {
+  color: #00f6ff;
+  text-shadow: 0 0 8px #00f6ff;
+}
+
+#menus .menus_item_child {
+  border: 1px solid #00f6ff55;
+  box-shadow: 0 0 18px #00f6ff33;
+  background: #0a1022f5;
+}
+
+#recent-posts .recent-post-item,
+#aside-content .card-widget,
+#archive,
+#page,
+#post {
+  border: 1px solid #00f6ff22;
+  box-shadow: 0 0 0 1px #00f6ff11, 0 0 20px #00f6ff22;
+}
+
+#aside-content .card-info #card-info-btn {
+  border: 1px solid #00f6ff66;
+  box-shadow: 0 0 16px #00f6ff55;
+}
+
+#aside-content .card-info #card-info-btn:hover {
+  border-color: #ff4fd8;
+  box-shadow: 0 0 18px #ff4fd888;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+#page-header #site-title,
+#page-header #site-subtitle {
+  text-shadow: 0 0 10px #00f6ff66;
+}
+
+a {
+  text-decoration-thickness: 1px;
+}
+
+a:hover {
+  text-shadow: 0 0 8px #ff4fd899;
+}
+
+#footer {
+  border-top: 1px solid #00f6ff33;
+}

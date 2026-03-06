@@ -4,6 +4,93 @@
   
     
     <entry>
+      <title>站点更新周报：菜单、页面与风格升级</title>
+      <link href="/2026/03/06/site-update-2026-03-06/"/>
+      <url>/2026/03/06/site-update-2026-03-06/</url>
+      
+        <content type="html"><![CDATA[<p>这一轮更新主要解决三个问题：导航不完整、内容不够满、风格不够统一。</p><h2 id="本轮改版清单"><a href="#本轮改版清单" class="headerlink" title="本轮改版清单"></a>本轮改版清单</h2><ul><li>顶部菜单改为全简体中文，并扩展更多一级&#x2F;二级入口。  </li><li>所有新增二级菜单都补齐了对应列表页。  </li><li>为需要内容承载的栏目新增了文章。  </li><li>整体视觉向赛博朋克风倾斜，增强氛围和辨识度。</li></ul><h2 id="重点收益"><a href="#重点收益" class="headerlink" title="重点收益"></a>重点收益</h2><ol><li>菜单可达性更好，站点结构更清晰。  </li><li>读者进入任一栏目都能看到实质内容。  </li><li>首页风格更统一，品牌感更强。</li></ol><h2 id="下一步"><a href="#下一步" class="headerlink" title="下一步"></a>下一步</h2><ul><li>给专题列表补更多系列文章  </li><li>补充英文页的同步内容  </li><li>增加站点统计看板与内容增长追踪</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 站点运营 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 更新 </tag>
+            
+            <tag> 菜单改版 </tag>
+            
+            <tag> 赛博风格 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>自动化部署流程再梳理</title>
+      <link href="/2026/03/06/automation-workflow-notes/"/>
+      <url>/2026/03/06/automation-workflow-notes/</url>
+      
+        <content type="html"><![CDATA[<p>随着页面和内容增多，纯手工发布容易遗漏细节，所以我把流程重新梳理成固定步骤。</p><h2 id="当前流程"><a href="#当前流程" class="headerlink" title="当前流程"></a>当前流程</h2><ol><li><code>hexo clean &amp;&amp; hexo generate</code> 生成静态文件。  </li><li>同步 <code>public</code> 到仓库根目录，保证 <code>index.html</code> 始终存在。  </li><li><code>git add/commit/push</code> 触发线上更新。  </li><li>线上轮询关键链接，确认都返回 200。</li></ol><h2 id="流程价值"><a href="#流程价值" class="headerlink" title="流程价值"></a>流程价值</h2><ul><li>减少“菜单改了但页面没发布”的问题。  </li><li>降低重复操作的心智负担。  </li><li>提高内容更新的可预期性。</li></ul><h2 id="后续可加"><a href="#后续可加" class="headerlink" title="后续可加"></a>后续可加</h2><ul><li>自动检测空链接与空页面  </li><li>自动生成更新日志草稿  </li><li>自动截图存档关键页面</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 自动化实践 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 自动化 </tag>
+            
+            <tag> 部署 </tag>
+            
+            <tag> GitHub Pages </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>赛博朋克视觉改造记录</title>
+      <link href="/2026/03/06/cyberpunk-interface-upgrade/"/>
+      <url>/2026/03/06/cyberpunk-interface-upgrade/</url>
+      
+        <content type="html"><![CDATA[<p>这次改造的目标很明确：让博客视觉从“普通主题”提升到“有辨识度的赛博风”。</p><h2 id="我做了什么"><a href="#我做了什么" class="headerlink" title="我做了什么"></a>我做了什么</h2><ol><li>统一主色为霓虹青蓝，并加入洋红与荧光绿作为强调色。  </li><li>给导航、卡片和按钮增加发光边框与悬浮高亮。  </li><li>为背景增加渐变叠层，让页面层次更立体。  </li><li>调整标题与正文字体，强化科技感与可读性平衡。</li></ol><h2 id="为什么这样改"><a href="#为什么这样改" class="headerlink" title="为什么这样改"></a>为什么这样改</h2><ul><li>菜单层级多了以后，需要更强的视觉引导。  </li><li>文章和列表页变多后，需要更稳定的结构感。  </li><li>赛博风适合高对比信息展示，阅读效率更高。</li></ul><h2 id="下一步计划"><a href="#下一步计划" class="headerlink" title="下一步计划"></a>下一步计划</h2><ul><li>增加更多赛博风插画资源  </li><li>为深色模式继续细化对比度  </li><li>优化移动端下的视觉密度</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 赛博实验室 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 赛博朋克 </tag>
+            
+            <tag> UI </tag>
+            
+            <tag> 主题优化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>博客正式上线：欢迎来到 affogato.xin</title>
       <link href="/2026/01/13/hello-world/"/>
       <url>/2026/01/13/hello-world/</url>
